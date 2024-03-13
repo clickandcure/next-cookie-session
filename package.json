@@ -8,7 +8,7 @@
     "dev:wranglerRemote": "wrangler pages dev --remote .vercel/output/static --compatibility-flag nodejs_compat",
     
     "build": "next build",
-    "start": "next start",
+    "uat": "next start",
     "build:cf": "npx @cloudflare/next-on-pages@1",
     "lint": "next lint"
   },

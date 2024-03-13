@@ -6,7 +6,8 @@ import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 
-export const runtime = 'edge'
+//Target CLOUDFLARE PAGES config
+// export const runtime = "edge";
 
 let username = "john";
 let isPro = true;
