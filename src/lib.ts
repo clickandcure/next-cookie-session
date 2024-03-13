@@ -14,7 +14,7 @@ export const defaultSession:SessionData = {
 }
 
 export const sessionOptions: SessionOptions ={
-  password: process.env.SECRET_KEY!,
+  password: process.env.SECRET_KEY! || "N08BKKhN7ztozIKYdgqQ3aSruSmVNcmEL3B/ZilWJE8=",
   cookieName: "lama-session",
   cookieOptions:{
     httpOnly:true,
