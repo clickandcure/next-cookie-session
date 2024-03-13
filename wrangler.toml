@@ -1,0 +1,6 @@
+
+
+[env.dev.vars]
+NODE_ENV="production"
+# npx auth secret
+SECRET_KEY="N08BKKhN7ztozIKYdgqQ3aSruSmVNcmEL3B/ZilWJE8="

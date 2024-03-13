@@ -1,0 +1,10 @@
+name = "iron-session"
+port=8289
+
+compatibility_flags = ["nodejs_compat"]
+compatibility_date = '2023-09-04'
+
+[env.dev.vars]
+NODE_ENV="production"
+# npx auth secret
+SECRET_KEY="N08BKKhN7ztozIKYdgqQ3aSruSmVNcmEL3B/ZilWJE8="
