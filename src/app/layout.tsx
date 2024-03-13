@@ -26,3 +26,10 @@ export default function RootLayout({
     </html>
   );
 }
+
+
+//Target CLOUDFLARE PAGES config
+// export const runtime = "edge";
+
+export const runtime = "nodejs";
+export const dynamic = "force-static";
